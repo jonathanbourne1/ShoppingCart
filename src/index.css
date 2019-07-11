@@ -1,0 +1,126 @@
+        html {
+            min-height: 100%;
+        }
+        
+        h4 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        
+        header img {
+            margin-left: 80px;
+        }
+        
+        .Hero h2 {
+            color: white;
+            font-size: 50px;
+        }
+        
+        .Hero p {
+            color: white;
+            font-size: 15px;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        @media(min-width:750px) {
+            header {
+                text-align: left;
+            }
+        }
+        
+        .submenu {
+            position: relative;
+            padding-left: 5px;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        .lista-carrito th {
+            text-align: center;
+            width: 100px;
+            font-weight: normal;
+        }
+        
+        .submenu .carrito {
+            display: none;
+        }
+        
+        .submenu:hover .carrito {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 70%;
+            z-index: 1;
+            background-color: white;
+            padding: 5px;
+            min-height: 400px;
+            min-width: 350px;
+            text-align: center;
+        }
+        
+        .Hero {
+            background-image: url('./img/hero.jpg');
+            height: 350px;
+        }
+        
+        .Hero .contenido-hero {
+            margin-top: 80px;
+        }
+        
+        .contenido-hero .form-control {
+            height: 50px;
+        }
+        
+        .contenido-hero .submit-buscador {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 50px;
+            padding: 0;
+            width: 50px;
+            text-indent: -9999px;
+            border: none;
+            display: block;
+            background-image: url('./img/lupa.png');
+            background-color: white;
+            border-radius: 5px;
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
+        
+        .barra {
+            padding: 20px;
+            background: #741d51;
+            background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%);
+            background: -webkit-linear-gradient(left, #741d51 0%, #e44e52 100%);
+            background: linear-gradient(to right, #741d51 0%, #e44e52 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52', GradientType=1);
+        }
+        
+        .icono {
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 30px;
+            color: white;
+        }
+        
+        .icono p {
+            margin-left: 50px;
+            font-size: 17px;
+        }
+        
+        .icono1 {
+            background-image: url('./img/icono1.png');
+        }
+        
+        .icono2 {
+            background-image: url('./img/icono2.png');
+        }
+        
+        .icono3 {
+            background-image: url('./img/icono3.png');
+        }
